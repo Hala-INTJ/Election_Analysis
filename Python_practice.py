@@ -43,3 +43,10 @@ for county,voters in counties_dict.items():
 # Print each county and registered voters from the voting_data
 for item in voting_data:
     print(f"{item['county']} county has {item['registered_voters']:,} registered voters.")
+
+# # Import the datetime class from the datetime module.
+# import datetime as dt
+# # Use the now() attribute on the datetime class to get the present time.
+# now = dt.datetime.now()
+# # Print the present time.
+# print("The time right now is ", now)
