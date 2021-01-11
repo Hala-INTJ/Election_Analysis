@@ -29,7 +29,7 @@ for item in voting_data:
 for item in voting_data:
     print(item['county']) 
 
-# Print each county and registered voter 
+# Print each county and registered voters 
 counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 
 # Option 1
@@ -38,8 +38,8 @@ for county,voters in counties_dict.items():
 
 # Option 2
 for county,voters in counties_dict.items():
-    print(f"{county} county has {voters:,} registered voters.")
+    print(f"{county} county has {voters:,.2f} registered voters.")
 
-# Print each county and registered voter from the voting_data
+# Print each county and registered voters from the voting_data
 for item in voting_data:
     print(f"{item['county']} county has {item['registered_voters']:,} registered voters.")
