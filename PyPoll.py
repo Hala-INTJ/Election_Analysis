@@ -20,6 +20,9 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 # Open the election results and read the file.
 # election_data = open(file_to_load, 'r')
 
+# Initialize a total vote counter.
+total_votes = 0
+
 # The file will close when you exit the block
 with open(file_to_load) as election_data:
 
@@ -27,16 +30,20 @@ with open(file_to_load) as election_data:
     # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
 
-    # # Print each row in the CSV file.
-    # for row in file_reader:
-    #     print(row)clear
-
-    # Print the header row.
+    # Read the header row.
+    # the_header = next(file_reader)
     # a_line_after_header = next(file_reader)
-    # another_line_after_header = next(file_reader)
     headers = next(file_reader)
     print(headers)
 
+    # Print each row in the CSV file.
+    for row in file_reader:
+    #   print(row)
+    #   Add to the total vote count.
+        total_votes += 1
+
+    # Print the total votes.
+    print(total_votes)    
 
 # Using the open() function with the "w" mode we will write data to the file.
 with open(file_to_save, "w") as txt_file:
