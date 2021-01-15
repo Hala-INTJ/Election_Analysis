@@ -4,11 +4,11 @@ This application was written for the election commission. It audits the results 
 Ballot ID, County, Candidate 
 ## Election-Audit Results:
 The election results can be found in this text file:
-<p align="center">
+#+HTML:<<center>
 | [election_analysis.txt](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/election_analysis.txt) |
-| ------------ |
+| ---------------- |
 | ![](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/Election%20Results%20Image.png) |
-</p>
+#+HTML:</center>
 
 * There were 369,711 votes cast in the election.
 * Breakdown of the number of votes and the percentage of total votes for each county:
