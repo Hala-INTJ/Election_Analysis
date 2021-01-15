@@ -5,6 +5,7 @@ Ballot ID, County, Candidate.
 ## Election-Audit Results:
 The election results can be found in this text file:
 <center>
+
 | [election_analysis.txt](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/election_analysis.txt) |
 | ---------------- |
 | ![](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/Election%20Results%20Image.png) |
