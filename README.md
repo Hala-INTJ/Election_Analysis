@@ -1,15 +1,14 @@
 # Election_Analysis
 ## Overview of Election Audit:
 This application was written for the election commission. It audits the results of a recent local congressional election. The solution expects the election results to be in a CSV file named "election_results.csv" in the "Resources" folder, with the following columns:
-Ballot ID,County,Candidate 
+Ballot ID, County, Candidate 
 ## Election-Audit Results:
 The election results can be found in this text file:
-<center>
-
+<p align="center">
 | [election_analysis.txt](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/election_analysis.txt) |
 | ------------ |
 | ![](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/Election%20Results%20Image.png) |
-</center>
+</p>
 
 * There were 369,711 votes cast in the election.
 * Breakdown of the number of votes and the percentage of total votes for each county:
