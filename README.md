@@ -4,7 +4,7 @@ This application audits the results of a recent local congressional election. Th
 Ballot ID,County,Candidate 
 ## Election-Audit Results:
 Here are the election results from the election_analysis.txt:
-![](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/election_analysis.txt)
+{{md './analysis/election_analysis.txt'}}
 
 * There were 369,711 votes cast in the election.
 * Breakdown of the number of votes and the percentage of total votes for each county:
