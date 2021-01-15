@@ -8,7 +8,7 @@ The election results can be found in this text file:
 
 | [election_analysis.txt](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/election_analysis.txt) |
 | ------------ |
-| ![]() |
+| ![](https://github.com/Hala-INTJ/Election_Analysis/blob/main/analysis/Election%20Results%20Image.png) |
 </center>
 
 * There were 369,711 votes cast in the election.
